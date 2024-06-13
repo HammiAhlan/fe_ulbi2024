@@ -25,7 +25,7 @@ function pushData(){
             hari_kerja : hari_kerja.split(",")
         }
     }
-    postData(urlPUT, data, AmbilResponse);
+    putData(urlPUT, data, AmbilResponse);
 
 }
 
